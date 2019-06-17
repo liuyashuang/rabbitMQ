@@ -47,7 +47,7 @@ C:消息的消费者</br>
 生产者将消息发送到队列，消费者从队列中获取消息</br>
 
 **2.2.1.2 代码案例**</br>
-*获取MQ的连接*
+##### *获取MQ的连接*
 ```
 package com.zpc.rabbitmq.util;
 import com.rabbitmq.client.ConnectionFactory;
@@ -72,7 +72,7 @@ public class ConnectionUtil {
     }
 }
 ```
-*生产者发送消息到队列*
+##### *生产者发送消息到队列*
 ```
 package com.zpc.rabbitmq.simple;
 
@@ -104,7 +104,7 @@ public class Send {
     }
 }
 ```
-*消费者从队列中获取消息*
+##### *消费者从队列中获取消息*
 ```
 package com.zpc.rabbitmq.simple;
 
